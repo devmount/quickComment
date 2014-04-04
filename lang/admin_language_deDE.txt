@@ -1,0 +1,23 @@
+toolbar_platzhalter_qc			= Kommentarelement mit eindeutigem Namen
+config_anordnung_qc				= Kommentarformular
+config_anordnung_oben_qc		= oben anordnen
+config_anordnung_unten_qc		= unten anordnen
+config_breaksincomments_qc		= Zeilenumbrüche in Kommentaren zulassen
+config_date_qc					= Datumsformat (PHP date() Funktion)
+config_time_qc					= Uhrzeitormat (PHP date() Funktion)
+config_datumtrenner_qc			= Trennzeichen zwischen Datum und Uhrzeit
+config_datumtrenner_error		= Maximal 7 Zeichen erlaubt.
+config_description_qc           = Das quickComment Plugin stellt eine Kommentarfunktion zur Verfügung, mit der die Seite einer Website von Besuchern kommentiert werden kann.<br /><br /><span style='font-weight:bold'>Nutzung:</span><br /><span style='font-family:monospace;margin:3px 3px; background-color:#eee;border:1px dotted #aaa;'>{quickComment|name}</span> Gibt das komplette Kommentarmodul zurück, d.h. sowohl das Kommentarformular, als auch die Kommentarliste selbst. <br /><br /><span style='font-weight:bold'>Dokumentation:</span><br />Eine ausführliche Dokumentation ist auf <span style="font-style:italic">www.devmount.de</span> zu finden (siehe obenstehender Link).
+config_spamschutz_qc			= Spamschutz aktivieren (empfohlen)
+config_zeichenbegrenzung_qc		= Zeichenbegrenzung aktivieren
+config_zeichenanzahl_qc			= Zeichanzahl der Zeichenbegrenzung
+config_zeichenanzahl_error		= Nur Zahlen zwischen 10 und 999 sind gültig.
+config_reloadsperre_qc			= Mindestzeit zwischen 2 Kommentaren (in Sekunden)
+config_reloadsperre_error		= Nur Zahlen sind gültig.
+config_sortierung_qc			= Wie sollen die Kommentare sortiert werden?
+config_sortierung_neueoben_qc	= Neuere Einträge oben
+config_sortierung_neueunten_qc	= Neuere Einträge unten
+config_mail_qc					= Mailadresse für Bestätigungsmail bei jedem neuen Eintrag
+config_mail_error				= Die eingegebene Mailadresse ist nicht korrekt.
+config_form_template			= Hier das Template für das Kommentarformular konfigurieren: {MESSAGE}, {NAME}, {COMMENT}, {CHARLIMIT}, {SPAM}, {SUBMIT}
+config_adminuser_qc				= Username des Benutzers, welcher Kommentare im Frontend löschen darf (benötigt AccessControl)

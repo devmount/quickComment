@@ -1,0 +1,23 @@
+toolbar_platzhalter_qc			= Comment Element with unique name
+config_anordnung_qc				= Let the comment form
+config_anordnung_oben_qc		= be at the top
+config_anordnung_unten_qc		= be at the bottom
+config_breaksincomments_qc		= Permit breaks in comments
+config_date_qc					= Date format (PHP date() function)
+config_time_qc					= Time format (PHP date() function)
+config_datumtrenner_qc			= Seperator of date an time
+config_datumtrenner_error		= Only 7 characters are permited.
+config_description_qc           = The quickComment plugin makes pages commentable.<br /><br /><span style='font-weight:bold'>Use:</span><br /><span style='font-family:monospace;margin:3px 3px; background-color:#eee;border:1px dotted #aaa;'>{quickComment|name}</span> returns the complete module of comments, that means the quickComment form and the quickComment list. <br /><br /><span style='font-weight:bold'>Documentation:</span><br />A detailed documentation can be found on <span style="font-style:italic;">www.devmount.de </span> (link above).
+config_spamschutz_qc			= Activate spam protection (recommended)
+config_zeichenbegrenzung_qc		= Activate character limit
+config_zeichenanzahl_qc			= Number of character limit
+config_zeichenanzahl_error		= Only numbers between 10 and 999 are permitted.
+config_reloadsperre_qc			= Minimum time between 2 comments (in seconds)
+config_reloadsperre_error		= Only numbers are permitted.
+config_sortierung_qc			= How should the comments be sorted?
+config_sortierung_neueoben_qc	= Newer entries at the top
+config_sortierung_neueunten_qc	= Newer entries at the bottom
+config_mail_qc					= Mail address for confirmation email for each new entry
+config_mail_error				= The email address you entered is not valid.
+config_form_template			= Configuration of the form template: {MESSAGE}, {NAME}, {COMMENT}, {CHARLIMIT}, {SPAM}, {SUBMIT}
+config_adminuser_qc				= Username of User who can delete comments in Frontend (requires AccessControl)

@@ -1,0 +1,122 @@
+/* Gesamt Container */
+div#qc_container {
+}
+
+/* Überschrift: Kommentare */
+div#qc_container h2 {
+}
+
+/* Informations und Nachrichtenfeld (z.B. "Bitte alle Felder ausfüllen") */
+div#qc_info, div#qc_info_succes, div#qc_info_error {
+	font-size:inherit;
+}
+div#qc_info_succes {
+	color:#008800;
+}
+div#qc_info_error {
+	color:#880000;
+}
+
+/* Kommentar Formular */
+#qc_container label {
+	color: #4d4d4d;
+	display: block;
+}
+
+#qc_container input[type="text"], #qc_container textarea {
+	width: 200px;
+	margin-bottom: 10px;
+}
+#qc_container input[name="submit"] {
+	width: 60px;
+}
+
+
+/* Zahl der verbleibenden Zeichen der Textarea */
+div#charsleft {
+	display:inline;
+	margin: 0 0 0 5px;
+}
+
+/* Formular Elemente */
+
+
+/* Kommentare */
+div.quickcomment {
+	margin:0 0 15px 0;
+}
+div.qc_head {
+	padding:2px 3px 2px 2px;
+	min-height:23px;
+	background-color:#eee;
+}
+div.qc_name {
+	font-weight:bold;
+	float:left;
+}
+div.qc_date {
+	float:right;
+}
+div.qc_text {
+	padding:1px 0 0 3px;
+	text-align: left;
+}
+
+/* Delete Button - Erscheint nur wenn man als Admin eingeloggt ist */
+a.delete {
+	display:block;
+	float:right;
+	width:14px;
+	line-height:14px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	font-weight:bold;
+	color:inherit;
+	margin:1px 0 0 8px;
+	padding:0;
+	position:relative;
+	outline:none;
+	cursor: pointer;
+}
+a.delete:hover {
+	background:#ccc;
+	color:#fff;
+}
+a.delete:active {
+	background:#444;
+	color:#fff;
+}
+
+a.delete span {
+	display:none;
+}
+
+a.delete:focus span, a.delete:active span, a.delete span:hover {
+	display:block;
+	position:absolute;
+	top:-3px;
+	left:15px;
+	height: 23px;
+	min-width:110px;
+	background:#eee;
+	vertical-align:middle;
+}
+
+a.delete:hover span {
+	color:#666;
+}
+
+input.qc_delete_submit {
+	display:inline;
+	width:30px;
+	line-height:21px;
+	background:#fff;
+	color:inherit;
+	border: none;
+	margin: 0 -10px 0 10px;
+}
+input.qc_delete_submit:hover {
+	background:#aaa;
+	color:#fff;
+}
