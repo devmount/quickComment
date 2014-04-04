@@ -617,7 +617,7 @@ class quickComment extends Plugin
 
         // build Template
         $template .= '
-            <div class="plugindraft-admin-header">
+            <div class="quickcomment-admin-header">
             <span>'
                 . $this->_admin_lang->getLanguageValue(
                     'admin_header',
@@ -629,25 +629,25 @@ class quickComment extends Plugin
             </a>
             </div>
         </li>
-        <li class="mo-in-ul-li ui-widget-content plugindraft-admin-li">
-            <div class="plugindraft-admin-subheader">'
+        <li class="mo-in-ul-li ui-widget-content quickcomment-admin-li">
+            <div class="quickcomment-admin-subheader">'
             . $this->_admin_lang->getLanguageValue('admin_test')
             . '</div>
             <div style="margin-bottom:5px;">
-                <div class="plugindraft-single-conf">
+                <div class="quickcomment-single-conf">
                     {test1_text}
                 </div>
                 {test1_description}
-                <span class="plugindraft-admin-default">
+                <span class="quickcomment-admin-default">
                     [' . /*$this->_confdefault['test1'][0] .*/']
                 </span>
             </div>
             <div style="margin-bottom:5px;">
-                <div class="plugindraft-single-conf">
+                <div class="quickcomment-single-conf">
                     {test2_text}
                 </div>
                 {test2_description}
-                <span class="plugindraft-admin-default">
+                <span class="quickcomment-admin-default">
                     [' . /*$this->_confdefault['test2'][0] .*/']
                 </span>
         ';
@@ -867,7 +867,7 @@ class quickComment extends Plugin
      * @param string  $descriptions Array Single item labels
      * @param boolean $multiple     Enable multiple item selection
      *
-     * @return Array   Configuration
+     * @return Array Configuration
      */
     protected function confSelect($description, $descriptions, $multiple = false)
     {
