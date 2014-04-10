@@ -45,7 +45,7 @@ class quickComment extends Plugin
     // plugin information
     const PLUGIN_AUTHOR  = 'HPdesigner';
     const PLUGIN_DOCU
-        = 'http://devmount.de/Develop/Mozilo%20Plugins/quickComment.html';
+        = 'http://devmount.de/Develop/moziloCMS/Plugins/quickComment.html';
     const PLUGIN_TITLE   = 'quickComment';
     const PLUGIN_VERSION = 'v1.1.2013-09-19';
     const MOZILO_VERSION = '2.0';
