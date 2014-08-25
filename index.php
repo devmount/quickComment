@@ -3,13 +3,13 @@
 /**
  * moziloCMS Plugin: quickComment
  *
- * Does something awesome!
+ * Makes pages commentable
  *
  * PHP version 5
  *
  * @category PHP
  * @package  PHP_MoziloPlugins
- * @author   HPdesigner <mail@devmount.de>
+ * @author   DEVMOUNT <mail@devmount.de>
  * @license  GPL v3+
  * @version  GIT: v1.1.2013-09-19
  * @link     https://github.com/devmount/quickComment
@@ -32,7 +32,7 @@ if (!defined('IS_CMS')) {
  *
  * @category PHP
  * @package  PHP_MoziloPlugins
- * @author   HPdesigner <mail@devmount.de>
+ * @author   DEVMOUNT <mail@devmount.de>
  * @license  GPL v3+
  * @link     https://github.com/devmount/quickComment
  */
@@ -43,12 +43,13 @@ class quickComment extends Plugin
     private $_cms_lang;
 
     // plugin information
-    const PLUGIN_AUTHOR  = 'HPdesigner';
-    const PLUGIN_DOCU
-        = 'http://devmount.de/Develop/moziloCMS/Plugins/quickComment.html';
+    const PLUGIN_AUTHOR  = 'DEVMOUNT';
     const PLUGIN_TITLE   = 'quickComment';
     const PLUGIN_VERSION = 'v1.1.2013-09-19';
     const MOZILO_VERSION = '2.0';
+    const PLUGIN_DOCU
+        = 'http://devmount.de/Develop/moziloCMS/Plugins/quickComment.html';
+
     private $_plugin_tags = array(
         'tag1' => '{quickComment|<name>}',
     );
@@ -702,7 +703,11 @@ class quickComment extends Plugin
                 htmlspecialchars($this->_plugin_tags['tag1'])
             ),
             self::PLUGIN_AUTHOR,
-            self::PLUGIN_DOCU,
+            array(
+                self::PLUGIN_DOCU,
+                self::PLUGIN_TITLE . ' '
+                . $this->_admin_lang->getLanguageValue('on_devmount')
+            ),
             $tags
         );
 

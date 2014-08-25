@@ -8,6 +8,7 @@ config_time_qc					= Uhrzeitormat (PHP date() Funktion)
 config_datumtrenner_qc			= Trennzeichen zwischen Datum und Uhrzeit
 config_datumtrenner_error		= Maximal 7 Zeichen erlaubt.
 config_description_qc           = Das quickComment Plugin stellt eine Kommentarfunktion zur Verfügung, mit der die Seite einer Website von Besuchern kommentiert werden kann.<br /><br /><span style='font-weight:bold'>Nutzung:</span><br /><span style='font-family:monospace;margin:3px 3px; background-color:#eee;border:1px dotted #aaa;'>{quickComment|name}</span> Gibt das komplette Kommentarmodul zurück, d.h. sowohl das Kommentarformular, als auch die Kommentarliste selbst. <br /><br /><span style='font-weight:bold'>Dokumentation:</span><br />Eine ausführliche Dokumentation ist auf <span style="font-style:italic">www.devmount.de</span> zu finden (siehe obenstehender Link).
+on_devmount                     = auf devmount.de
 config_spamschutz_qc			= Spamschutz aktivieren (empfohlen)
 config_zeichenbegrenzung_qc		= Zeichenbegrenzung aktivieren
 config_zeichenanzahl_qc			= Zeichanzahl der Zeichenbegrenzung
