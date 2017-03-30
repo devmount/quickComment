@@ -12,8 +12,7 @@
  * @author   DEVMOUNT <mail@devmount.de>
  * @license  GPL v3+
  * @version  GIT: v1.1.2013-09-19
- * @link     https://github.com/devmount-mozilo/quickComment
- * @link     http://devmount.de/Develop/moziloCMS/Plugins/quickComment.html
+ * @link     https://github.com/devmount-mozilo/quickComment/wiki/Dokumentation
  * @see      I can do all this through him who gives me strength.
  *           – The Bible
  *
@@ -48,7 +47,7 @@ class quickComment extends Plugin
     const PLUGIN_VERSION = 'v1.1.2013-09-19';
     const MOZILO_VERSION = '2.0';
     const PLUGIN_DOCU
-        = 'http://devmount.de/Develop/moziloCMS/Plugins/quickComment.html';
+        = 'https://github.com/devmount-mozilo/quickComment/wiki/Dokumentation';
 
     private $_plugin_tags = array(
         'tag1' => '{quickComment|<name>}',
